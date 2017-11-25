@@ -1,4 +1,12 @@
-list_marks_in_classes_in_shool_8=[{'school_class': '4a', 'scores': [3,4,4,5,2]}, {'school_class': '4b', 'scores': [4,4,4,4]}, {'school_class': '8b', 'scores': [5,5,5,5]}]
+#Создать список с оценками учеников разных классов школы вида [{'school_class': '4a', 'scores': [3,4,4,5,2]}, ...]
+#Посчитать и вывести средний балл по всей школе.
+#Посчитать и вывести средний балл по каждому классу.
+
+list_marks_in_classes_in_shool_8=[
+    {'school_class': '4a', 'scores': [3,4,4,5,2]},
+    {'school_class': '4b', 'scores': [4,4,4,4]},
+    {'school_class': '8b', 'scores': [5,5,5,5]}
+    ]
 
 def avg_marks (list_marks_in_classes):
     try:
