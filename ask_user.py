@@ -38,5 +38,6 @@ def ask_user2(): #При помощи функции get_answer() отвечат
         print('Жаль, что уже уходишь! Пока! ')
        
 
+       
 if __name__ == '__main__':
     ask_user2()
